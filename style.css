@@ -3,7 +3,10 @@
     padding: 0;
     font-family: 'Mulish', sans-serif;
   }
-  
+  a
+  {
+    text-decoration: none;
+  }
   /* navbar section */
   .navigation {
     box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
@@ -191,6 +194,7 @@
     font-size: 18px;
     font-weight: 700;
     margin-top: -2%;
+    color: #000;
   }
   .top_restaurant .restaurant_types .card .card-body p
   {
@@ -241,6 +245,7 @@
     border: none;
     margin-right: 3%;
     cursor: pointer;
+    color: #000;
   }
   .restaurants .card img
   {
