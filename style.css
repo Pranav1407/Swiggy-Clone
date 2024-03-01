@@ -144,7 +144,6 @@
   .offers .offer_items img
   {
     border-radius: 25px;
-    object-fit: cover;
     margin-top: 2%;
     margin-right: 2%;
   }
