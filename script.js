@@ -1,5 +1,3 @@
-let minus = document.getElementById('fa-minus');
-let plus = document.getElementById('fa-plus');
 let count = 1;
 function add()
 {
@@ -16,16 +14,13 @@ function addition()
 
 function subtraction()
 {
-    if (document.getElementById('add').innerHTML == "1") 
-    {
+        if( document.getElementById('add').nodeValue != count )
+        {
+            count -= 1;
+            document.getElementById('add').innerHTML = count;
+        }
+
         document.getElementById('add').innerHTML = "ADD";
         document.getElementById('fa-minus').style.display = "none";
         document.getElementById('fa-plus').style.display = "none";
-    }
-    else
-    {
-        count= count - 1;
-        document.getElementById('add').innerHTML = count;
-    
-    }
 }
